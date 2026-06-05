@@ -1,0 +1,317 @@
+{
+  "@@locale": "en",
+  "appTitle": "TripPilot",
+
+  "navToday": "Today",
+  "navAll": "Itinerary",
+  "navJournal": "Journal",
+  "navInfo": "Info",
+  "navSearch": "Search",
+
+  "tripListTitle": "My Trips",
+  "tripListEmpty": "No trips yet. Tap the button to import a PDF.",
+  "importPdf": "Import PDF",
+  "createManually": "Create manually",
+  "loadSampleTrip": "Load sample trip",
+  "copiedToClipboard": "Copied to clipboard",
+  "tripDateRange": "{start} ~ {end}",
+  "@tripDateRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "tripInProgressDay": "In progress · Day {index}",
+  "@tripInProgressDay": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "tripEnded": "Trip ended",
+  "viewDayDetail": "View day detail",
+  "meals": "Meals",
+  "noData": "—",
+
+  "importTitle": "Import Trip",
+  "importPickFile": "Choose PDF file",
+  "importExtracting": "Extracting text…",
+  "importParsing": "Parsing with AI…",
+  "importPreviewTitle": "Import Preview",
+  "importConfirm": "Confirm & Save",
+  "importRetry": "Retry",
+  "importRawTextTitle": "Extracted text (raw)",
+  "importReselect": "Choose another PDF",
+  "importParseButton": "Parse with AI",
+  "importGoSettings": "Open settings",
+  "errorNoApiKey": "No Claude API key set. Please enter it in Settings.",
+  "warnDayCount": "Day count doesn't match the date range",
+  "warnDateGap": "Daily dates are not continuous",
+  "warnFlightRange": "Flight date is outside the trip range",
+  "warnMeetup": "Meetup time is after the first flight",
+  "previewWarningsTitle": "Please review the following",
+  "previewTripInfo": "Trip info",
+  "previewDays": "Daily plan",
+  "previewSpotsCount": "{count} spots",
+  "@previewSpotsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previewInfoCount": "{count} info sections",
+  "@previewInfoCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importExtractedSummary": "{pages} pages · {chars} chars",
+  "@importExtractedSummary": {
+    "placeholders": {
+      "pages": {
+        "type": "int"
+      },
+      "chars": {
+        "type": "int"
+      }
+    }
+  },
+  "errorPdfRead": "Could not read the PDF; it may be corrupt or encrypted",
+
+  "privacyConsentTitle": "PDF Parsing Privacy Notice",
+  "privacyConsentBody": "To parse your itinerary, this app will send the text extracted from the PDF to the Anthropic Claude API. The original PDF file is never uploaded. Do you agree?",
+  "privacyConsentRemember": "Remember my choice",
+  "privacyAgree": "Agree",
+  "privacyDecline": "Decline (create manually)",
+
+  "tripHomeTitle": "Trip Home",
+  "leaderName": "Tour Leader",
+  "callDomestic": "Domestic phone",
+  "callOverseas": "Overseas phone",
+  "airportServiceLine": "Airport service line",
+  "meetupInfo": "Meetup Info",
+  "meetupTime": "Meetup time",
+  "meetupLocation": "Meetup location",
+  "luggageTag": "Luggage tag",
+  "countdownDays": "Departs in {days} days",
+  "@countdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "todayCard": "Today",
+  "dayLabel": "Day {index}",
+  "@dayLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+
+  "dayDetailTitle": "Day Detail",
+  "routeSummary": "Route",
+  "hotel": "Hotel",
+  "mealBreakfast": "Breakfast",
+  "mealLunch": "Lunch",
+  "mealDinner": "Dinner",
+  "notes": "Notes",
+  "refundNote": "Refund terms",
+  "visitTypeEnter": "Enter",
+  "visitTypePhoto": "Photo stop",
+  "visitTypeDriveBy": "Drive by",
+
+  "spotDetailTitle": "Spot Detail",
+  "flightLabel": "Flight",
+  "flightDepart": "Depart",
+  "flightArrive": "Arrive",
+
+  "infoHubTitle": "Travel Info",
+  "infoSearchHint": "Search info…",
+  "categoryNotice": "Notices",
+  "categoryTipping": "Tipping",
+  "categoryBaggage": "Baggage",
+  "categoryHotel": "Hotel",
+  "categorySafety": "Safety",
+  "categoryCustoms": "Customs",
+  "categoryHealth": "Health",
+  "categoryGuide": "Guide",
+
+  "remindersTitle": "Reminders",
+  "remindersEnableAll": "Enable all reminders",
+  "reminderMeetup": "Meetup reminder",
+  "reminderPassport": "Passport validity",
+  "reminderDayStart": "Daily briefing",
+  "reminderReturnFlight": "Return flight",
+  "reminderCustom": "Custom reminder",
+  "reminderPermissionDenied": "Notification permission off. Reminders disabled. Open system settings to enable.",
+  "reminderMeetupBody": "Gather at {location} at {time}",
+  "@reminderMeetupBody": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "location": { "type": "String" }
+    }
+  },
+  "reminderPassportBody": "Confirm passport valid for 6+ months",
+  "reminderDayStartBody": "Day {index}: today's plan and hotel info",
+  "@reminderDayStartBody": {
+    "placeholders": {
+      "index": { "type": "int" }
+    }
+  },
+  "reminderReturnFlightBody": "{flightNo} departs {time}, allow time",
+  "@reminderReturnFlightBody": {
+    "placeholders": {
+      "flightNo": { "type": "String" },
+      "time": { "type": "String" }
+    }
+  },
+  "remindersEmpty": "No reminders yet",
+  "remindersCreated": "Created {count} reminders",
+  "@remindersCreated": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "journalTitle": "Journal",
+  "journalTabNotes": "Notes",
+  "journalTabExpense": "Expenses",
+  "journalTabPhotos": "Photos",
+  "journalEmptyNotes": "No notes yet. Tap the button to add one.",
+  "journalEmptyExpense": "No expenses yet. Tap the button to add one.",
+  "journalEmptyPhotos": "No photos yet",
+  "addNote": "Add note",
+  "addPhoto": "Add photo",
+  "addExpense": "Add expense",
+  "expenseAmount": "Amount",
+  "expenseCurrency": "Currency",
+  "expenseCategory": "Category",
+  "expenseNote": "Note",
+  "expenseDate": "Date",
+  "expenseCatFood": "Food",
+  "expenseCatTransport": "Transport",
+  "expenseCatShopping": "Shopping",
+  "expenseCatTicket": "Tickets",
+  "expenseCatLodging": "Lodging",
+  "expenseCatOther": "Other",
+  "expenseTotalConverted": "≈ TWD total {amount}",
+  "@expenseTotalConverted": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "updateRate": "Update rate",
+  "rateStale": "Rate updated {hours}h ago, consider refreshing",
+  "@rateStale": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+
+  "exportTitle": "Export Records",
+  "exportScopeAll": "All records",
+  "exportScopeExpense": "Expenses only",
+  "exportScopeNotes": "Notes & photos only",
+  "exportScopeDateRange": "By date range",
+  "exportFormatPdf": "PDF report",
+  "exportFormatCsv": "CSV (expense detail)",
+  "exportGenerate": "Generate",
+  "exportHistory": "Export history",
+  "exportGenerating": "Generating…",
+  "exportDone": "Generated and opened share sheet",
+  "exportSelectFormat": "Select at least one format",
+  "exportFontMissing": "PDF needs a Chinese font. Add Noto Sans TC per assets/fonts/README and retry; CSV exports fine.",
+  "exportDateStart": "Start date",
+  "exportDateEnd": "End date",
+  "exportShareAgain": "Share",
+
+  "searchTitle": "Search",
+  "searchHint": "Search spots, days, info…",
+  "searchResultSpots": "Spots",
+  "searchResultDays": "Days",
+  "searchResultInfo": "Info",
+  "searchNoResult": "No matching results",
+
+  "settingsTitle": "Settings",
+  "settingsApiKey": "Claude API Key",
+  "settingsApiKeyHint": "Paste your Anthropic API key (stored in secure storage)",
+  "settingsModel": "AI model",
+  "settingsLanguage": "Language",
+  "settingsExchangeRates": "Exchange rates",
+  "settingsAppearance": "Appearance",
+  "settingsGeneral": "General",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "langSystem": "System",
+  "langZh": "繁體中文",
+  "langEn": "English",
+  "enableNotifications": "Enable notifications",
+  "notifEnabledHint": "Notifications are on; reminders will arrive on time.",
+
+  "exchangeRateTitle": "Exchange Rates",
+  "exchangeRateSyncAll": "Sync all rates",
+  "exchangeRateAdd": "Add currency pair",
+  "exchangeRateSourceApi": "Online",
+  "exchangeRateSourceManual": "Manual",
+  "exchangeRateEmpty": "No rates yet. Tap the button to add one.",
+  "exchangeRateBaseLabel": "Base currency (e.g. JPY)",
+  "exchangeRateRateLabel": "1 {base} = ? TWD",
+  "@exchangeRateRateLabel": {
+    "placeholders": { "base": { "type": "String" } }
+  },
+  "exchangeRateOnlineFetch": "Fetch online",
+  "exchangeRateFetchFailed": "Could not fetch latest rate; enter manually or use last rate",
+  "exchangeRateSynced": "Updated {count} rates",
+  "@exchangeRateSynced": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "exchangeRateLine": "1 {base} = {rate} TWD",
+  "@exchangeRateLine": {
+    "placeholders": {
+      "base": { "type": "String" },
+      "rate": { "type": "String" }
+    }
+  },
+  "exchangeRateUpdatedAt": "Updated {date} · {source}",
+  "@exchangeRateUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+
+  "commonSave": "Save",
+  "commonCancel": "Cancel",
+  "commonDelete": "Delete",
+  "commonEdit": "Edit",
+  "commonClose": "Close",
+  "commonRetry": "Retry",
+  "commonCall": "Call",
+  "commonMap": "Map",
+  "commonCopy": "Copy",
+  "commonShare": "Share",
+  "errorGeneric": "Something went wrong, please try again",
+  "errorNoNetwork": "No network connection",
+  "errorPdfImageOnly": "This PDF is image-only. Use a text-selectable version or create manually.",
+  "errorParseFailed": "AI parsing failed. Raw data kept; please fix manually."
+}

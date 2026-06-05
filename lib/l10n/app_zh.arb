@@ -1,0 +1,320 @@
+{
+  "@@locale": "zh",
+  "appTitle": "TripPilot",
+  "@appTitle": {
+    "description": "App 名稱"
+  },
+
+  "navToday": "今日",
+  "navAll": "行程表",
+  "navJournal": "札記",
+  "navInfo": "須知",
+  "navSearch": "搜尋",
+
+  "tripListTitle": "我的行程",
+  "tripListEmpty": "尚無行程，點右下角匯入 PDF 開始",
+  "importPdf": "匯入 PDF",
+  "createManually": "手動建立",
+  "loadSampleTrip": "載入範例行程",
+  "copiedToClipboard": "已複製到剪貼簿",
+  "tripDateRange": "{start} ~ {end}",
+  "@tripDateRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "tripInProgressDay": "旅途中 · 第 {index} 天",
+  "@tripInProgressDay": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "tripEnded": "行程已結束",
+  "viewDayDetail": "查看當日詳情",
+  "meals": "餐食",
+  "noData": "—",
+
+  "importTitle": "匯入行程",
+  "importPickFile": "選擇 PDF 檔案",
+  "importExtracting": "正在抽取文字…",
+  "importParsing": "AI 解析中…",
+  "importPreviewTitle": "匯入預覽",
+  "importConfirm": "確認並儲存",
+  "importRetry": "重試",
+  "importRawTextTitle": "抽取結果（原始文字）",
+  "importReselect": "重新選擇 PDF",
+  "importParseButton": "AI 解析行程",
+  "importGoSettings": "前往設定",
+  "errorNoApiKey": "尚未設定 Claude API Key，請至設定頁輸入",
+  "warnDayCount": "天數與日期區間不一致",
+  "warnDateGap": "每日日期不連續",
+  "warnFlightRange": "航班日期不在行程區間內",
+  "warnMeetup": "集合時間晚於首班機",
+  "previewWarningsTitle": "請確認以下項目",
+  "previewTripInfo": "行程資訊",
+  "previewDays": "每日安排",
+  "previewSpotsCount": "{count} 個景點",
+  "@previewSpotsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previewInfoCount": "{count} 則須知",
+  "@previewInfoCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "importExtractedSummary": "{pages} 頁 · {chars} 字元",
+  "@importExtractedSummary": {
+    "placeholders": {
+      "pages": {
+        "type": "int"
+      },
+      "chars": {
+        "type": "int"
+      }
+    }
+  },
+  "errorPdfRead": "PDF 無法讀取，可能已損毀或加密",
+
+  "privacyConsentTitle": "PDF 解析隱私說明",
+  "privacyConsentBody": "為解析行程，本 App 將把 PDF 抽出的「文字內容」傳送至 Anthropic Claude API。PDF 原檔不會上傳。是否同意？",
+  "privacyConsentRemember": "記住我的選擇",
+  "privacyAgree": "同意",
+  "privacyDecline": "拒絕（改用手動建立）",
+
+  "tripHomeTitle": "行程首頁",
+  "leaderName": "領隊／導遊",
+  "callDomestic": "國內電話",
+  "callOverseas": "國外電話",
+  "airportServiceLine": "機場服務專線",
+  "meetupInfo": "集合資訊",
+  "meetupTime": "集合時間",
+  "meetupLocation": "集合地點",
+  "luggageTag": "行李牌",
+  "countdownDays": "{days} 天後出發",
+  "@countdownDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "todayCard": "今日",
+  "dayLabel": "第 {index} 天",
+  "@dayLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+
+  "dayDetailTitle": "單日詳情",
+  "routeSummary": "旅行區間",
+  "hotel": "飯店",
+  "mealBreakfast": "早餐",
+  "mealLunch": "午餐",
+  "mealDinner": "晚餐",
+  "notes": "特別提醒",
+  "refundNote": "退費條款",
+  "visitTypeEnter": "入內參觀",
+  "visitTypePhoto": "下車拍照",
+  "visitTypeDriveBy": "行車經過",
+
+  "spotDetailTitle": "景點詳情",
+  "flightLabel": "航班",
+  "flightDepart": "出發",
+  "flightArrive": "抵達",
+
+  "infoHubTitle": "旅遊須知",
+  "infoSearchHint": "搜尋須知內容…",
+  "categoryNotice": "注意事項",
+  "categoryTipping": "小費",
+  "categoryBaggage": "行李",
+  "categoryHotel": "住宿",
+  "categorySafety": "安全",
+  "categoryCustoms": "海關",
+  "categoryHealth": "防疫",
+  "categoryGuide": "導遊提醒",
+
+  "remindersTitle": "提醒管理",
+  "remindersEnableAll": "啟用所有提醒",
+  "reminderMeetup": "集合提醒",
+  "reminderPassport": "護照效期",
+  "reminderDayStart": "每日晨報",
+  "reminderReturnFlight": "回程班機",
+  "reminderCustom": "自訂提醒",
+  "reminderPermissionDenied": "通知權限未開啟，提醒功能停用。前往系統設定開啟。",
+  "reminderMeetupBody": "{time} 於 {location} 集合",
+  "@reminderMeetupBody": {
+    "placeholders": {
+      "time": { "type": "String" },
+      "location": { "type": "String" }
+    }
+  },
+  "reminderPassportBody": "確認護照效期六個月以上",
+  "reminderDayStartBody": "Day {index}：今日行程與飯店資訊",
+  "@reminderDayStartBody": {
+    "placeholders": {
+      "index": { "type": "int" }
+    }
+  },
+  "reminderReturnFlightBody": "{flightNo} {time} 起飛，請預留時間",
+  "@reminderReturnFlightBody": {
+    "placeholders": {
+      "flightNo": { "type": "String" },
+      "time": { "type": "String" }
+    }
+  },
+  "remindersEmpty": "尚無提醒",
+  "remindersCreated": "已建立 {count} 則提醒",
+  "@remindersCreated": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+
+  "journalTitle": "旅遊札記",
+  "journalTabNotes": "札記",
+  "journalTabExpense": "支出",
+  "journalTabPhotos": "相片牆",
+  "journalEmptyNotes": "尚無札記，點右下角新增",
+  "journalEmptyExpense": "尚無支出，點右下角新增",
+  "journalEmptyPhotos": "尚無相片",
+  "addNote": "新增札記",
+  "addPhoto": "新增相片",
+  "addExpense": "新增支出",
+  "expenseAmount": "金額",
+  "expenseCurrency": "幣別",
+  "expenseCategory": "類別",
+  "expenseNote": "備註",
+  "expenseDate": "日期",
+  "expenseCatFood": "餐飲",
+  "expenseCatTransport": "交通",
+  "expenseCatShopping": "購物",
+  "expenseCatTicket": "門票",
+  "expenseCatLodging": "住宿",
+  "expenseCatOther": "其他",
+  "expenseTotalConverted": "≈ 台幣合計 {amount}",
+  "@expenseTotalConverted": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "updateRate": "更新匯率",
+  "rateStale": "匯率已於 {hours} 小時前更新，建議重新取得",
+  "@rateStale": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      }
+    }
+  },
+
+  "exportTitle": "匯出記錄",
+  "exportScopeAll": "全部記錄",
+  "exportScopeExpense": "僅支出",
+  "exportScopeNotes": "僅札記與相片",
+  "exportScopeDateRange": "依日期範圍",
+  "exportFormatPdf": "PDF 報告",
+  "exportFormatCsv": "CSV（支出明細）",
+  "exportGenerate": "產生",
+  "exportHistory": "歷史匯出",
+  "exportGenerating": "產生中…",
+  "exportDone": "已產生並開啟分享",
+  "exportSelectFormat": "請至少選擇一種格式",
+  "exportFontMissing": "PDF 需要中文字型。請依 assets/fonts/README 放入 Noto Sans TC 後重試；CSV 可正常匯出。",
+  "exportDateStart": "起始日期",
+  "exportDateEnd": "結束日期",
+  "exportShareAgain": "分享",
+
+  "searchTitle": "全行程搜尋",
+  "searchHint": "搜尋景點、每日、須知…",
+  "searchResultSpots": "景點",
+  "searchResultDays": "每日",
+  "searchResultInfo": "須知",
+  "searchNoResult": "沒有符合的結果",
+
+  "settingsTitle": "設定",
+  "settingsApiKey": "Claude API Key",
+  "settingsApiKeyHint": "貼上你的 Anthropic API key（存於裝置安全儲存）",
+  "settingsModel": "AI 模型",
+  "settingsLanguage": "語系",
+  "settingsExchangeRates": "匯率管理",
+  "settingsAppearance": "外觀",
+  "settingsGeneral": "一般",
+  "themeSystem": "跟隨系統",
+  "themeLight": "淺色",
+  "themeDark": "深色",
+  "langSystem": "跟隨系統",
+  "langZh": "繁體中文",
+  "langEn": "English",
+  "enableNotifications": "啟用通知",
+  "notifEnabledHint": "通知已開啟，提醒會準時送達。",
+
+  "exchangeRateTitle": "匯率管理",
+  "exchangeRateSyncAll": "同步所有匯率",
+  "exchangeRateAdd": "新增幣別對",
+  "exchangeRateSourceApi": "線上",
+  "exchangeRateSourceManual": "手動輸入",
+  "exchangeRateEmpty": "尚無匯率資料，點右下角新增",
+  "exchangeRateBaseLabel": "來源幣別（如 JPY）",
+  "exchangeRateRateLabel": "1 {base} = ? TWD",
+  "@exchangeRateRateLabel": {
+    "placeholders": { "base": { "type": "String" } }
+  },
+  "exchangeRateOnlineFetch": "線上取得",
+  "exchangeRateFetchFailed": "無法取得最新匯率，請手動輸入或使用上次匯率",
+  "exchangeRateSynced": "已更新 {count} 筆匯率",
+  "@exchangeRateSynced": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "exchangeRateLine": "1 {base} = {rate} TWD",
+  "@exchangeRateLine": {
+    "placeholders": {
+      "base": { "type": "String" },
+      "rate": { "type": "String" }
+    }
+  },
+  "exchangeRateUpdatedAt": "{date} 更新 · {source}",
+  "@exchangeRateUpdatedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+
+  "commonSave": "儲存",
+  "commonCancel": "取消",
+  "commonDelete": "刪除",
+  "commonEdit": "編輯",
+  "commonClose": "關閉",
+  "commonRetry": "重試",
+  "commonCall": "撥號",
+  "commonMap": "地圖",
+  "commonCopy": "複製",
+  "commonShare": "分享",
+  "errorGeneric": "發生錯誤，請稍後再試",
+  "errorNoNetwork": "目前無網路連線",
+  "errorPdfImageOnly": "此 PDF 為圖片格式，請改用可選取文字的版本或手動建立",
+  "errorParseFailed": "AI 解析失敗，已保留原始資料，請手動修正"
+}

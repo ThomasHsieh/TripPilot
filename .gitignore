@@ -1,0 +1,27 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+# 註：pubspec.lock 為 App，刻意提交以鎖定相依版本。
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+
+# 產生檔（由 build_runner 產生，可選擇是否提交；此處不提交）
+*.g.dart
+*.freezed.dart
+lib/l10n/generated/
+
+# 機密
+**/secrets.dart
+.env
+
+# 原始 PDF 樣本以外的使用者資料
+/sample_output/

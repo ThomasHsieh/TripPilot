@@ -1,0 +1,91 @@
+name: trip_pilot
+description: "TripPilot - 團體旅遊行程匯入、瀏覽、提醒與旅遊中記錄的離線優先跨平台 App。"
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # 狀態管理（採手寫 provider，不使用 riverpod_generator）
+  flutter_riverpod: ^2.5.1
+
+  # 路由
+  go_router: ^14.2.0
+
+  # 本地資料庫
+  drift: ^2.31.0
+  drift_flutter: ^0.2.0
+  sqlite3_flutter_libs: ^0.5.24
+
+  # PDF 文字抽取
+  syncfusion_flutter_pdf: ^33.2.10
+
+  # 檔案 / 相片
+  file_picker: ^8.0.5
+  image_picker: ^1.1.2
+  path_provider: ^2.1.3
+  path: ^1.9.0
+
+  # 網路（Claude API / 匯率）
+  http: ^1.2.1
+
+  # 安全儲存（API key）
+  flutter_secure_storage: ^9.2.2
+
+  # 通知
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.4
+
+  # 國際化（版本由 flutter_localizations 釘選）
+  intl: any
+
+  # 撥號 / 地圖 / 分享
+  url_launcher: ^6.3.0
+  share_plus: ^12.0.0
+
+  # 匯出 PDF
+  pdf: ^3.11.1
+  printing: ^5.13.1
+
+  # 工具
+  uuid: ^4.4.0
+  collection: ^1.18.0
+  shared_preferences: ^2.3.0
+  # Unicode NFKC 正規化：修正部分 PDF 以康熙部首碼點編中文字（⼗→十、⽥→田）
+  unorm_dart: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  build_runner: ^2.4.11
+  drift_dev: ^2.31.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/sample/
+    - assets/sample/spots/
+
+  # ⚠️ 字型尚未放入。請將 Noto Sans TC 字型檔放入 assets/fonts/ 後，
+  #    取消下方註解（PDF 匯出內嵌中文字型需要，見規格 §5.9）。
+  #    取得：https://fonts.google.com/noto/specimen/Noto+Sans+TC
+  # assets:
+  #   - assets/fonts/
+  #
+  # fonts:
+  #   - family: NotoSansTC
+  #     fonts:
+  #       - asset: assets/fonts/NotoSansTC-Regular.ttf
+  #       - asset: assets/fonts/NotoSansTC-Bold.ttf
+  #         weight: 700
