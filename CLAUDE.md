@@ -67,7 +67,7 @@ main（init tz/日期符號/SharedPreferences）→ '/' BootstrapScreen
 
 ## 回歸 fixture
 
-- `docs/NSC061306BR6.pdf`（亦在 `test/fixtures/`）。
+- `docs/NSC061306BR6.pdf`（單一檔；PDF 測試直接讀此路徑）。
 - 驗收點：6 天、團號 NSC061306BR6、BR122 0955→1420、十和田莊 0176-75-2221、平泉中尊寺退費、須知可搜「鋰電池/退稅」、景點圖正確對應。
 
 ## 測試注意（testWidgets）

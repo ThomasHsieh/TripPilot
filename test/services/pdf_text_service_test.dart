@@ -8,7 +8,7 @@ void main() {
   const PdfTextService service = PdfTextService();
 
   test('範例 PDF 抽出關鍵欄位文字', () async {
-    final bytes = await File('test/fixtures/NSC061306BR6.pdf').readAsBytes();
+    final bytes = await File('docs/NSC061306BR6.pdf').readAsBytes();
     final PdfExtractResult result = await service.extractFromBytes(bytes);
 
     expect(result.pageCount, greaterThanOrEqualTo(6));
@@ -24,7 +24,7 @@ void main() {
   });
 
   test('NFKC 還原康熙部首相容字', () async {
-    final bytes = await File('test/fixtures/NSC061306BR6.pdf').readAsBytes();
+    final bytes = await File('docs/NSC061306BR6.pdf').readAsBytes();
     final PdfExtractResult result = await service.extractFromBytes(bytes);
     // 抽取後不應再出現康熙部首區（U+2F00–U+2FDF）的字元。
     final bool hasKangxiRadical =
