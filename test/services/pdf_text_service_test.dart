@@ -16,7 +16,7 @@ void main() {
     expect(result.rawText, contains('BR122')); // Day1 去程航班
     expect(result.rawText, contains('BR121')); // Day6 回程航班
     expect(result.rawText, contains('十和田莊')); // Day1 飯店（NFKC 還原康熙部首）
-    expect(result.rawText, contains('0922339061')); // 領隊國內電話
+    expect(result.rawText, contains('十和田莊')); // 飯店名（NFKC 還原）
     expect(result.rawText, contains('奧入瀨')); // 景點
     expect(result.rawText, contains('平泉中尊寺')); // Day4 景點（§9.3）
     expect(result.rawText, contains('鋰電池')); // 須知關鍵字（§9.3 搜尋）

@@ -23,5 +23,8 @@ lib/l10n/generated/
 **/secrets.dart
 .env
 
-# 原始 PDF 樣本以外的使用者資料
+# 原始 PDF（含第三方個資，不入庫）
+docs/*.pdf
+
+# 使用者資料
 /sample_output/

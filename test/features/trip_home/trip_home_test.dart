@@ -16,8 +16,8 @@ TripRow _trip() {
     title: '東北六日',
     startDate: today.subtract(const Duration(days: 1)),
     endDate: today.add(const Duration(days: 4)),
-    leaderName: '康晋文',
-    leaderPhoneDomestic: '0922339061',
+    leaderName: '王小明',
+    leaderPhoneDomestic: '0912345678',
     createdAt: today,
   );
 }
@@ -66,8 +66,8 @@ void main() {
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 100));
 
-    expect(find.text('康晋文'), findsOneWidget);
-    expect(find.textContaining('0922339061'), findsOneWidget);
+    expect(find.text('王小明'), findsOneWidget);
+    expect(find.textContaining('0912345678'), findsOneWidget);
     expect(find.text('秋田漫遊'), findsOneWidget);
   });
 

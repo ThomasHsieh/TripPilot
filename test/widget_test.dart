@@ -20,8 +20,8 @@ TripRow _trip() => TripRow(
       id: 't1',
       tourCode: 'NSC061306BR6',
       title: '東北六日',
-      leaderName: '康晋文',
-      leaderPhoneDomestic: '0922339061',
+      leaderName: '王小明',
+      leaderPhoneDomestic: '0912345678',
       createdAt: DateTime.now(),
     );
 
@@ -59,6 +59,6 @@ void main() {
     await tester.pump(const Duration(milliseconds: 300));
     await tester.pump(const Duration(milliseconds: 300));
 
-    expect(find.text('康晋文'), findsOneWidget);
+    expect(find.text('王小明'), findsOneWidget);
   });
 }

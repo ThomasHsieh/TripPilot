@@ -26,8 +26,8 @@ void main() {
         title: '東北仙境傳說六日',
         startDate: DateTime(2026, 6, 13),
         endDate: DateTime(2026, 6, 18),
-        leaderName: '康晉文',
-        leaderPhoneDomestic: '0922339061',
+        leaderName: '王小明',
+        leaderPhoneDomestic: '0912345678',
         flights: <ParsedFlight>[
           ParsedFlight(
             dayIndex: 1,
